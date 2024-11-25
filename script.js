@@ -43,7 +43,7 @@ function verificarOrganizacao() {
 
 
   if (correto) {
-    displayMensagem.textContent = 'Parabéns! Você organizou corretamente. O código da sua atividade é: ABC123';
+    displayMensagem.textContent = 'Parabéns! Você organizou corretamente. O código da sua atividade é: XYZ789';
     displayMensagem.style.color = 'green';
   } else {
     displayMensagem.textContent = 'Ops! A organização está incorreta. O código da sua atividade é: XYZ789';
