@@ -1,41 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Organize a Área de Trabalho</title>
+  <title>Organize os Ícones por Tipo de Arquivo</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div id="jogo">
-    <h1>Organize a Área de Trabalho</h1>
+    <h1>Organize os Ícones por Tipo de Arquivo</h1>
     <div id="cronometro">Tempo restante: <span id="tempo">60</span> segundos</div>
-    <div id="area-trabalho">
-      <div id="icones">
-        <img src="arquivo-foto.png" class="icone arquivo" draggable="true" alt="Ícone de Arquivo">
-        <img src="adobe.png" class="icone programa" draggable="true" alt="Ícone de Programa">
-        <img src="pasta.png" class="icone pasta" draggable="true" alt="Ícone de Pasta">
-        <img src="arquivo-pdf.png" class="icone arquivo" draggable="true" alt="Ícone de Arquivo">
-        <img src="arquivo-video.png" class="icone arquivo" draggable="true" alt="Ícone de Arquivo">
-        <img src="excel.png" class="icone programa" draggable="true" alt="Ícone de Programa">
-        <img src="pasta.png" class="icone pasta" draggable="true" alt="Ícone de Pasta">
-        <img src="zoom.png" class="icone programa" draggable="true" alt="Ícone de Programa">
-        <img src="pasta.png" class="icone pasta" draggable="true" alt="Ícone de Pasta">
-        <img src="chromes.png" class="icone programa" draggable="true" alt="Ícone de Programa">
-        <img src="pasta.png" class="icone pasta" draggable="true" alt="Ícone de Pasta">
-        <img src="firefox.png" class="icone programa" draggable="true" alt="Ícone de Programa">
-        <img src="arquivo-txt.png" class="icone arquivo" draggable="true" alt="Ícone de Arquivo">
-        <img src="pasta.png" class="icone pasta" draggable="true" alt="Ícone de Pasta">
-        <img src="arquivo-word.jpg" class="icone arquivo" draggable="true" alt="Ícone de Arquivo">
-      </div>
 
-      <!-- Áreas de organização -->
-      <div id="categorias">
-        <div class="categoria" data-tipo="arquivo">Arquivos</div>
-        <div class="categoria" data-tipo="programa">Programas</div>
-        <div class="categoria" data-tipo="pasta">Pastas</div>
-      </div>
+    <!-- Área de trabalho maior -->
+    <div id="area-trabalho">
+      <!-- Slots preenchidos dinamicamente pelo JavaScript -->
     </div>
+
     <button id="botaoVerificar">VERIFICAR</button>
     <div id="mensagem"></div>
   </div>

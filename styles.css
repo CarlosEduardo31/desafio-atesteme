@@ -9,63 +9,41 @@ body {
 }
 
 #jogo {
-  max-width: 600px;
+  max-width: 1000px;
   padding: 20px;
   background: white;
   border-radius: 8px;
 }
 
 #area-trabalho {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  background: url('./imagens/xp.jpg') no-repeat center center / cover;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 640px;
+  margin: 20px auto;
 }
 
-#icones {
+.slot {
+  width: 70px;
+  height: 70px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  width: 40%;
-  padding: 10px;
-  background: #e5e7eb;
-  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
 }
 
 .icone {
   width: 50px;
   height: 50px;
   cursor: grab;
-  border: 1px solid transparent;
-  border-radius: 8px;
 }
 
 .icone.arrastando {
   opacity: 0.6;
   border: 1px dashed #9ca3af;
-}
-
-#categorias {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 50%;
-}
-
-.categoria {
-  flex: 1;
-  padding: 20px;
-  background: #d1d5db;
-  border-radius: 8px;
-  font-weight: bold;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 3px;
-}
-
-.categoria.sobre {
-  background-color: #93c5fd;
 }
 
 #mensagem {
@@ -74,6 +52,26 @@ body {
   font-weight: bold;
 }
 
-#icones.sobre {
-  background-color: #93c5fd;
+#botaoVerificar {
+  background-color: #198c1a; /* Cor verde do Windows XP */
+  color: white; /* Texto branco */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte semelhante à usada no XP */
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  border: none; /* Sem borda */
+  border-radius: 8px; /* Borda arredondada */
+  cursor: pointer; /* Mostra o cursor de mão */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+  transition: all 0.3s ease; /* Transição suave */
+}
+
+#botaoVerificar:hover {
+  background-color: #25a82d; /* Cor mais clara para o efeito hover */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais forte ao passar o mouse */
+}
+
+#botaoVerificar:active {
+  background-color: #147a13; /* Cor mais escura quando pressionado */
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2); /* Sombra mais suave ao clicar */
 }
