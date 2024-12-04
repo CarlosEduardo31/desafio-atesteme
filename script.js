@@ -97,15 +97,20 @@ function gerarAreaTrabalho() {
         icone.classList.add('arrastando');
       });
 
+      // Evento de touchmove no celular
       icone.addEventListener('touchmove', (e) => {
+        e.preventDefault();
+
         const touchMoveX = e.touches[0].clientX;
         const touchMoveY = e.touches[0].clientY;
+        
         if (iconeSelecionado) {
           const dx = touchMoveX - touchStartX;
           const dy = touchMoveY - touchStartY;
           iconeSelecionado.style.transform = `translate(${dx}px, ${dy}px)`;
         }
       });
+
       
 
       // Modificar o evento de touchend para garantir que a verificação seja feita após o ícone ser solto
