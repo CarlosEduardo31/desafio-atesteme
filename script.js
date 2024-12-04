@@ -8,6 +8,23 @@ let cronometro;
 let iconeSelecionado = null;
 let cronometroPausado = false;
 
+
+// Ícones disponíveis formato aceitado no firebase
+// const icones = [
+//   { src: '../o/A3.C16.H1.EM.2024.Q3092.P%2Fimagens%2Farquivo-foto.png?alt=media', tipo: 'jpeg' },
+//   { src: '../o/A3.C16.H1.EM.2024.Q3092.P%2Fimagens%2Fpdf.png?alt=media', tipo: 'pdf' },
+//   { src: '../o/A3.C16.H1.EM.2024.Q3092.P%2Fimagens%2Fpasta.png?alt=media', tipo: 'pasta' },
+//   { src: '../o/A3.C16.H1.EM.2024.Q3092.P%2Fimagens%2Farquivo-txt.png?alt=media', tipo: 'txt' },
+//   { src: '../o/A3.C16.H1.EM.2024.Q3092.P%2Fimagens%2Fpdf.png?alt=media', tipo: 'pdf' },
+//   { src: '../o/A3.C16.H1.EM.2024.Q3092.P%2Fimagens%2Farquivo-foto.png?alt=media', tipo: 'jpeg' },
+//   { src: '../o/A3.C16.H1.EM.2024.Q3092.P%2Fimagens%2Farquivo-txt.png?alt=media', tipo: 'txt' },
+//   { src: '../o/A3.C16.H1.EM.2024.Q3092.P%2Fimagens%2Fpdf.png?alt=media', tipo: 'pdf' },
+//   { src: '../o/A3.C16.H1.EM.2024.Q3092.P%2Fimagens%2Farquivo-txt.png?alt=media', tipo: 'txt' },
+//   { src: '../o/A3.C16.H1.EM.2024.Q3092.P%2Fimagens%2Fpasta.png?alt=media', tipo: 'pasta' },
+//   { src: '../o/A3.C16.H1.EM.2024.Q3092.P%2Fimagens%2Farquivo-foto.png?alt=media', tipo: 'jpeg' },
+//   { src: '../o/A3.C16.H1.EM.2024.Q3092.P%2Fimagens%2Fpasta.png?alt=media', tipo: 'pasta' },
+// ];
+
 // Ícones disponíveis
 const icones = [
   { src: './imagens/arquivo-foto.png', tipo: 'jpeg' },

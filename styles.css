@@ -18,6 +18,7 @@ body {
 #area-trabalho {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
+  /* background: url('../o/A3.C16.H1.EM.2024.Q3092.P%2Fimagens%2Fxp.jpg') no-repeat center center / cover; */
   background: url('./imagens/xp.jpg') no-repeat center center / cover;
   gap: 9px;
   padding: 10px;
