@@ -19,7 +19,7 @@ body {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   background: url('./imagens/xp.jpg') no-repeat center center / cover;
-  gap: 10px;
+  gap: 9px;
   padding: 10px;
   border: 2px solid #ccc;
   border-radius: 8px;
@@ -33,6 +33,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
 }
 
 .icone {
