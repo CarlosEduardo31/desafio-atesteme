@@ -53,25 +53,36 @@ body {
 }
 
 #botaoVerificar {
-  background-color: #198c1a; /* Cor verde do Windows XP */
-  color: white; /* Texto branco */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte semelhante à usada no XP */
+  background-color: #198c1a;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   font-weight: bold;
-  padding: 10px 20px; /* Espaçamento interno do botão */
-  border: none; /* Sem borda */
-  border-radius: 8px; /* Borda arredondada */
-  cursor: pointer; /* Mostra o cursor de mão */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
-  transition: all 0.3s ease; /* Transição suave */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 
 #botaoVerificar:hover {
-  background-color: #25a82d; /* Cor mais clara para o efeito hover */
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais forte ao passar o mouse */
+  background-color: #25a82d;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 #botaoVerificar:active {
-  background-color: #147a13; /* Cor mais escura quando pressionado */
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2); /* Sombra mais suave ao clicar */
+  background-color: #147a13;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.icone.travado {
+  pointer-events: none;
+  opacity: 0.5;
+  background-color: rgba(0, 255, 0, 0.3);
+  border: 2px solid green;
+}
+
+.desabilitar-interacao {
+  pointer-events: none;
 }
